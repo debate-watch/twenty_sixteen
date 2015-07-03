@@ -49,7 +49,7 @@ joe = Candidate.find_by_last_name("Biden") #> {}
 
 ## Contributing
 
-Edit candidate data in **lib/twenty_sixteen/candidate.rb**. Please add new slogans in sequential order or appearance.
+Edit candidate data in **lib/twenty_sixteen/candidate.rb**. Please add new slogans in sequential order of appearance.
 
 1. Fork it ( https://github.com/debate-watch/twenty_sixteen/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
