@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = TwentySixteen::VERSION
   spec.authors       = ["MJ Rossetti (@s2t2)"]
   spec.email         = ["s2t2mail@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = %q{A source for data about the 2016 United States Presidential election.}
+  spec.description   = %q{A source for data about the 2016 United States Presidential election. Includes a "candidates" endpoint.}
+  spec.homepage      = "https://github.com/debate-watch/twenty_sixteen"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
