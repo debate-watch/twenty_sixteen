@@ -2,8 +2,11 @@ require 'json'
 
 module TwentySixteen
   class Candidate
+
+    CANDIDATES_JSON = File.dirname(__FILE__) + '/candidates.json'
+
     def self.all
-      JSON.parse(File.read("lib/twenty_sixteen/candidates.json"), :symbolize_names => true)
+      JSON.parse(File.read(CANDIDATES_JSON), :symbolize_names => true)
     end
 
     def self.democrat
