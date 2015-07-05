@@ -38,7 +38,21 @@ List all candidates running for President.
 ```` rb
 candidates = TwentySixteen::Candidate.all
 candidates.each do |candidate|
-  # do something crazy
+  puts candidate
+  #=> {
+  #  :party=>"Democrat",
+  #  :first_name=>"Jim",
+  #  :last_name=>"Webb",
+  #  :url=>"http://www.webb2016.com/",
+  #  :campaign_name=>nil,
+  #  :slogans=>["Leadership You Can Trust"],
+  #  :social_urls=>
+  #   ["http://www.facebook.com/IHeardMyCountryCalling",
+  #    "http://instagram.com/webb2016/",
+  #    "http://www.twitter.com/jimwebbusa",
+  #    "https://www.youtube.com/channel/UC-Cs55IKt_UoYTMyioTSPww"],
+  #  :support_groups=>[{:name=>"Born Fighting PAC", :url=>"http://www.bornfighting.com"}]
+  #}
 end
 ````
 
