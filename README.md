@@ -1,5 +1,7 @@
 # TwentySixteen
 
+[![Gem Version](https://badge.fury.io/rb/twenty_sixteen.svg)](http://badge.fury.io/rb/twenty_sixteen)
+
 A source for data about the 2016 United States Presidential election. Includes a **candidates** endpoint.
 
 ## Installation
