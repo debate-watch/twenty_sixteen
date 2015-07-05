@@ -80,15 +80,215 @@
   },
   {
     "party":"Republican",
-    "first_name":"____",
-    "last_name":"____",
-    "url":"____",
-    "campaign_name":"____",
+    "first_name":"Chris",
+    "last_name":"Christie",
+    "url":"https://www.chrischristie.com",
+    "campaign_name":"Chris Christie for President",
+    "slogans":["Telling it like it is."],
+    "social_urls":[
+      "https://www.facebook.com/govchristie",
+      "https://twitter.com/chrischristie",
+      "https://instagram.com/chrischristie",
+      "https://www.youtube.com/channel/UCQnJDld3oa2vX7xYaXlSj4A"
+    ],
+    "support_groups":[]
+  },
+  {
+    "party":"Republican",
+    "first_name":"Bobby",
+    "last_name":"Jindal",
+    "url":"http://www.bobbyjindal.com/",
+    "campaign_name":"Jindal for President",
     "slogans":[],
     "social_urls":[
-      "____",
-      "____",
-      "____"
+      "http://facebook.com/bobbyjindal",
+      "http://twitter.com/bobbyjindal",
+      "http://instagram.com/bobbyjindal",
+      "https://www.youtube.com/user/bobbyjindal"
+    ],
+    "support_groups":[]
+  },
+  {
+    "party":"Republican",
+    "first_name":"Donald",
+    "last_name":"Trump",
+    "url":"https://www.donaldjtrump.com/",
+    "campaign_name":"Donald J. Trump for President",
+    "slogans":["Make America Great Again!"],
+    "social_urls":[
+      "https://twitter.com/realdonaldtrump",
+      "https://www.facebook.com/DonaldTrump",
+      "https://instagram.com/realdonaldtrump/",
+      "https://www.youtube.com/user/trump"
+    ],
+    "support_groups":[]
+  },
+  {
+    "party":"Republican",
+    "first_name":"Jeb",
+    "last_name":"Bush",
+    "url":"https://jeb2016.com",
+    "campaign_name":"Jeb 2016",
+    "slogans":[],
+    "social_urls":[
+      "https://twitter.com/JebBush",
+      "https://www.facebook.com/jebbush",
+      "https://instagram.com/jebbush",
+      "https://www.youtube.com/channel/UCxuef1vrlJMjZRrFmYyGSeQ"
+    ],
+    "support_groups":[]
+  },
+  {
+    "party":"Republican",
+    "first_name":"Rick",
+    "last_name":"Perry",
+    "url":"https://rickperry.org/",
+    "campaign_name":"Perry for President",
+    "slogans":[],
+    "social_urls":[
+      "https://twitter.com/governorperry",
+      "https://www.facebook.com/GovernorPerry",
+      "https://www.youtube.com/user/governorrickperry",
+      "https://instagram.com/governorperry/"
+    ],
+    "support_groups":[]
+  },
+  {
+    "party":"Republican",
+    "first_name":"Lindsey",
+    "last_name":"Graham",
+    "url":"http://www.lindseygraham.com/",
+    "campaign_name":"Lindsey Graham 2016",
+    "slogans":["Ready to be Commander-in-Chief on Day One"],
+    "social_urls":[
+      "https://twitter.com/LindseyGrahamSC",
+      "https://instagram.com/lindseygrahamsc/",
+      "https://www.facebook.com/LindseyGrahamSC",
+      "https://www.youtube.com/user/LindseyGrahamdotcom"
+    ],
+    "support_groups":[]
+  },
+  {
+    "party":"Republican",
+    "first_name":"George",
+    "last_name":"Pataki",
+    "url":"http://www.georgepataki.com/",
+    "campaign_name":"Pataki for President",
+    "slogans":["People over Politics"],
+    "social_urls":[
+      "https://www.facebook.com/GovGeorgePataki",
+      "https://twitter.com/governorpataki",
+      "https://www.youtube.com/channel/UCuP7cm-m6JDhhBxH8HfFSjQ"
+    ],
+    "support_groups":[]
+  },
+  {
+    "party":"Republican",
+    "first_name":"Rick",
+    "last_name":"Santorum",
+    "url":"http://www.ricksantorum.com/",
+    "campaign_name":"Santorum for President 2016",
+    "slogans":["Restore the American Dream for Hard-working Families"],
+    "social_urls":[
+      "https://www.facebook.com/RickSantorum",
+      "http://instagram.com/ricksantorum",
+      "https://twitter.com/ricksantorum",
+      "https://www.youtube.com/user/RickSantorum"
+    ],
+    "support_groups":[]
+  },
+  {
+    "party":"Republican",
+    "first_name":"Mike",
+    "last_name":"Huckabee",
+    "url":"http://www.mikehuckabee.com/",
+    "campaign_name":"Huckabee for President",
+    "slogans":["From Hope to Higher Ground"],
+    "social_urls":[
+      "https://www.facebook.com/mikehuckabee",
+      "https://twitter.com/govmikehuckabee",
+      "https://plus.google.com/u/0/114248918644175005647/about",
+      "https://instagram.com/govmikehuckabee/",
+      "https://www.youtube.com/channel/UC4vrtT6rYwuocyUAqzw7ERA"
+    ],
+    "support_groups":[]
+  },
+  {
+    "party":"Republican",
+    "first_name":"Ben",
+    "last_name":"Carson",
+    "url":"https://www.bencarson.com/",
+    "campaign_name":"Carson America",
+    "slogans":["Heal, Inspire, Revive"],
+    "social_urls":[
+      "https://www.facebook.com/realbencarson/",
+      "https://twitter.com/realbencarson",
+      "http://instagram.com/realbencarson/",
+      "https://www.youtube.com/user/realbencarson/"
+    ],
+    "social_hashtags":["#BC2DC16"],
+    "support_groups":[]
+  },
+  {
+    "party":"Republican",
+    "first_name":"Carly",
+    "last_name":"Fiorina",
+    "url":"https://carlyforamerica.com/",
+    "campaign_name":"Carly for America",
+    "slogans":["We must once again become a nation of limitless possibility."],
+    "social_urls":[
+      "https://www.facebook.com/pages/Carly-For-America/801745626578122",
+      "https://twitter.com/carlyforamerica",
+      "https://www.youtube.com/channel/UCiYZ3Ta44Lc0qP5bOASz7Yw",
+      "https://instagram.com/carlyforamerica/"
+    ],
+    "support_groups":[{"name":"CARLY for America", "url":"https://carlyforamerica.com/"}]
+  },
+  {
+    "party":"Republican",
+    "first_name":"Marco",
+    "last_name":"Rubio",
+    "url":"https://marcorubio.com/",
+    "campaign_name":"Marco Rubio for President",
+    "slogans":["A New American Century"],
+    "social_urls":[
+      "https://www.youtube.com/user/marcorubio",
+      "https://instagram.com/marcorubiofla/",
+      "http://marcorubio.tumblr.com/",
+      "https://plus.google.com/+MarcoRubio",
+      "https://www.pinterest.com/contact1112/",
+      "https://twitter.com/marcorubio",
+      "https://www.facebook.com/MarcoRubio"
+    ],
+    "support_groups":[]
+  },
+  {
+    "party":"Republican",
+    "first_name":"Rand",
+    "last_name":"Paul",
+    "url":"https://randpaul.com/",
+    "campaign_name":"Rand Paul for President",
+    "slogans":["Defeat the Washington Machine"],
+    "social_urls":[
+      "https://www.facebook.com/RandPaul",
+      "https://plus.google.com/u/2/111010718120518521029/",
+      "https://twitter.com/RandPaul",
+      "https://www.youtube.com/channel/UC_8WUrPbi8clO6sWt_FDvuA",
+      "https://instagram.com/drrandpaul/"
+    ],
+    "support_groups":[]
+  },
+  {
+    "party":"Republican",
+    "first_name":"Ted",
+    "last_name":"Cruz",
+    "url":"https://www.tedcruz.org/",
+    "campaign_name":"Cruz for President",
+    "slogans":["Courageous Conservatives Reigniting the Promise of America"],
+    "social_urls":[
+      "https://www.facebook.com/tedcruzpage",
+      "https://twitter.com/tedcruz",
+      "https://www.youtube.com/user/TedCruzforSenate"
     ],
     "support_groups":[]
   }

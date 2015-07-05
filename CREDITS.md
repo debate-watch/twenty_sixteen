@@ -7,3 +7,6 @@
 
 ## Candidate Support Groups
  + http://www.nytimes.com/politics/first-draft/2015/07/02/super-pac-raises-15-6-million-for-hillary-clinton-campaign/
+
+## Primaries
+ + http://www.nytimes.com/interactive/2016/us/elections/primary-calendar-and-results.html
