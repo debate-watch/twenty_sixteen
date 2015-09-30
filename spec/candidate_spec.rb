@@ -40,7 +40,7 @@ module TwentySixteen
       it "returns a candidate whose last name matches the paramater" do
         pending "announcement by the VP..."
         joe = TwentySixteen::Candidate.find_by_last_name("Biden")
-        expect(joe).to be_kind_of(Hash)
+        expect(joe).to be_kind_of(Hash) # fyi this is going to fail until the VP enters the race and his data is added.
       end
     end
   end
