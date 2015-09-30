@@ -5,6 +5,7 @@
     "last_name":"Webb",
     "url":"http://www.webb2016.com/",
     "campaign_name":null,
+    "campaign_status":"active",
     "slogans":["Leadership You Can Trust"],
     "social_urls":[
       "http://www.facebook.com/IHeardMyCountryCalling",
@@ -20,6 +21,7 @@
     "last_name":"Clinton",
     "url":"https://www.hillaryclinton.com/",
     "campaign_name":"Hillary for America",
+    "campaign_status":"active",
     "slogans":[],
     "social_urls":[
       "https://www.facebook.com/hillaryclinton",
@@ -39,6 +41,7 @@
     "last_name":"Chafee",
     "url":"http://www.chafee2016.com/",
     "campaign_name":"Chafee 2016 Committee",
+    "campaign_status":"active",
     "slogans":["Fresh Ideas for America"],
     "social_urls":[
       "https://www.facebook.com/chafee2016",
@@ -53,6 +56,7 @@
     "first_name":"Martin",
     "last_name":"O'Malley",
     "url":"https://martinomalley.com/",
+    "campaign_status":"active",
     "campaign_name":"O'Malley for President",
     "slogans":[],
     "social_urls":[
@@ -69,6 +73,7 @@
     "last_name":"Sanders",
     "url":"https://berniesanders.com/",
     "campaign_name":"Bernie 2016",
+    "campaign_status":"active",
     "slogans":[],
     "social_urls":[
       "https://www.facebook.com/berniesanders",
@@ -84,6 +89,7 @@
     "last_name":"Christie",
     "url":"https://www.chrischristie.com",
     "campaign_name":"Chris Christie for President",
+    "campaign_status":"active",
     "slogans":["Telling it like it is."],
     "social_urls":[
       "https://www.facebook.com/govchristie",
@@ -99,6 +105,7 @@
     "last_name":"Jindal",
     "url":"http://www.bobbyjindal.com/",
     "campaign_name":"Jindal for President",
+    "campaign_status":"active",
     "slogans":[],
     "social_urls":[
       "http://facebook.com/bobbyjindal",
@@ -114,6 +121,7 @@
     "last_name":"Trump",
     "url":"https://www.donaldjtrump.com/",
     "campaign_name":"Donald J. Trump for President",
+    "campaign_status":"active",
     "slogans":["Make America Great Again!"],
     "social_urls":[
       "https://twitter.com/realdonaldtrump",
@@ -129,6 +137,7 @@
     "last_name":"Bush",
     "url":"https://jeb2016.com",
     "campaign_name":"Jeb 2016",
+    "campaign_status":"active",
     "slogans":[],
     "social_urls":[
       "https://twitter.com/JebBush",
@@ -144,6 +153,7 @@
     "last_name":"Perry",
     "url":"https://rickperry.org/",
     "campaign_name":"Perry for President",
+    "campaign_status":"inactive",
     "slogans":[],
     "social_urls":[
       "https://twitter.com/governorperry",
@@ -159,6 +169,7 @@
     "last_name":"Graham",
     "url":"http://www.lindseygraham.com/",
     "campaign_name":"Lindsey Graham 2016",
+    "campaign_status":"active",
     "slogans":["Ready to be Commander-in-Chief on Day One"],
     "social_urls":[
       "https://twitter.com/LindseyGrahamSC",
@@ -174,6 +185,7 @@
     "last_name":"Pataki",
     "url":"http://www.georgepataki.com/",
     "campaign_name":"Pataki for President",
+    "campaign_status":"active",
     "slogans":["People over Politics"],
     "social_urls":[
       "https://www.facebook.com/GovGeorgePataki",
@@ -188,6 +200,7 @@
     "last_name":"Santorum",
     "url":"http://www.ricksantorum.com/",
     "campaign_name":"Santorum for President 2016",
+    "campaign_status":"active",
     "slogans":["Restore the American Dream for Hard-working Families"],
     "social_urls":[
       "https://www.facebook.com/RickSantorum",
@@ -203,6 +216,7 @@
     "last_name":"Huckabee",
     "url":"http://www.mikehuckabee.com/",
     "campaign_name":"Huckabee for President",
+    "campaign_status":"active",
     "slogans":["From Hope to Higher Ground"],
     "social_urls":[
       "https://www.facebook.com/mikehuckabee",
@@ -219,6 +233,7 @@
     "last_name":"Carson",
     "url":"https://www.bencarson.com/",
     "campaign_name":"Carson America",
+    "campaign_status":"active",
     "slogans":["Heal, Inspire, Revive"],
     "social_urls":[
       "https://www.facebook.com/realbencarson/",
@@ -235,6 +250,7 @@
     "last_name":"Fiorina",
     "url":"https://carlyforamerica.com/",
     "campaign_name":"Carly for America",
+    "campaign_status":"active",
     "slogans":["We must once again become a nation of limitless possibility."],
     "social_urls":[
       "https://www.facebook.com/pages/Carly-For-America/801745626578122",
@@ -250,6 +266,7 @@
     "last_name":"Rubio",
     "url":"https://marcorubio.com/",
     "campaign_name":"Marco Rubio for President",
+    "campaign_status":"active",
     "slogans":["A New American Century"],
     "social_urls":[
       "https://www.youtube.com/user/marcorubio",
@@ -268,6 +285,7 @@
     "last_name":"Paul",
     "url":"https://randpaul.com/",
     "campaign_name":"Rand Paul for President",
+    "campaign_status":"active",
     "slogans":["Defeat the Washington Machine"],
     "social_urls":[
       "https://www.facebook.com/RandPaul",
@@ -284,11 +302,46 @@
     "last_name":"Cruz",
     "url":"https://www.tedcruz.org/",
     "campaign_name":"Cruz for President",
+    "campaign_status":"active",
     "slogans":["Courageous Conservatives Reigniting the Promise of America"],
     "social_urls":[
       "https://www.facebook.com/tedcruzpage",
       "https://twitter.com/tedcruz",
       "https://www.youtube.com/user/TedCruzforSenate"
+    ],
+    "support_groups":[]
+  },
+  {
+    "party":"Republican",
+    "first_name":"Scott",
+    "last_name":"Walker",
+    "url":"https://www.scottwalker.com/",
+    "campaign_name":"Scott Walker Inc.",
+    "campaign_status":"inactive",
+    "slogans":["Reform, Growth, Safety"],
+    "social_urls":[
+      "https://www.youtube.com/user/supportscottwalker",
+      "https://plus.google.com/+ScottWalker/",
+      "https://instagram.com/scottwalker",
+      "https://medium.com/@scottwalker",
+      "https://www.facebook.com/scottkwalker",
+      "https://twitter.com/ScottWalker"
+    ],
+    "support_groups":[]
+  },
+  {
+    "party":"Republican",
+    "first_name":"John",
+    "last_name":"Kasich",
+    "url":"https://johnkasich.com/",
+    "campaign_name":"John Kasich for America",
+    "campaign_status":"active",
+    "slogans":[],
+    "social_urls":[
+      "https://www.facebook.com/JohnKasich/",
+      "https://instagram.com/JohnKasich/",
+      "https://www.youtube.com/user/JohnKasich",
+      "https://twitter.com/johnkasich"
     ],
     "support_groups":[]
   }
