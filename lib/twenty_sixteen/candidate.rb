@@ -17,6 +17,10 @@ module TwentySixteen
       all.select{|candidate| candidate[:party] == "Republican"}
     end
 
+    def self.independent
+      all.select{|candidate| candidate[:party] == "Independent"}
+    end
+
     def self.find_by_url(url)
       all.find{|candidate| candidate[:url] == url}
     end

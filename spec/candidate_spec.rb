@@ -29,6 +29,15 @@ module TwentySixteen
       end
     end
 
+    describe '#independent' do
+      it "returns an array of matching candidates, indies only" do
+        indies = TwentySixteen::Candidate.independent
+        expect(indies).to be_kind_of(Array)
+        expect(indies).not_to be_empty
+        expect(indies.first).to be_kind_of(Hash)
+      end
+    end
+
     describe '#find_by_url' do
       it "returns a candidate whose campaign url matches the paramater" do
         hrc = TwentySixteen::Candidate.find_by_url("https://www.hillaryclinton.com/")

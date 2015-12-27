@@ -24,10 +24,7 @@ Or install it yourself as:
 
 ### Client-side
 
-Feel free to make client-side requests for the JSON data file:
-  + https://raw.githubusercontent.com/debate-watch/twenty_sixteen/master/lib/twenty_sixteen/candidates.json
-
-Thanks to GitHub for hosting.
+Request the [hosted JSON data file](https://raw.githubusercontent.com/debate-watch/twenty_sixteen/master/lib/twenty_sixteen/candidates.json).
 
 ### Server-side
 
@@ -37,37 +34,21 @@ List all candidates running for President.
 
 ```` rb
 candidates = TwentySixteen::Candidate.all
-candidates.each do |candidate|
-  puts candidate
-  #=> {
-  #  :party=>"Democrat",
-  #  :first_name=>"Jim",
-  #  :last_name=>"Webb",
-  #  :url=>"http://www.webb2016.com/",
-  #  :campaign_name=>nil,
-  #  :slogans=>["Leadership You Can Trust"],
-  #  :social_urls=>
-  #   ["http://www.facebook.com/IHeardMyCountryCalling",
-  #    "http://instagram.com/webb2016/",
-  #    "http://www.twitter.com/jimwebbusa",
-  #    "https://www.youtube.com/channel/UC-Cs55IKt_UoYTMyioTSPww"],
-  #  :support_groups=>[{:name=>"Born Fighting PAC", :url=>"http://www.bornfighting.com"}]
-  #}
-end
 ````
 
 Filter candidates.
 
 ```` rb
-reps = TwentySixteen::Candidate.republican
 dems = TwentySixteen::Candidate.democrat
+reps = TwentySixteen::Candidate.republican
+indies = TwentySixteen::Candidate.independent
 ````
 
 Find a specific candidate.
 
 ```` rb
 hrc = TwentySixteen::Candidate.find_by_url("https://www.hillaryclinton.com/")
-joe = TwentySixteen::Candidate.find_by_last_name("Biden")
+donald = TwentySixteen::Candidate.find_by_last_name("Trump")
 ````
 
 ## Contributing
