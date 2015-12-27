@@ -1,6 +1,6 @@
 [
   {
-    "party":"Democrat",
+    "party":"Independent",
     "first_name":"Jim",
     "last_name":"Webb",
     "url":"http://www.webb2016.com/",
@@ -13,7 +13,11 @@
       "http://www.twitter.com/jimwebbusa",
       "https://www.youtube.com/channel/UC-Cs55IKt_UoYTMyioTSPww"
     ],
-    "support_groups": [{"name":"Born Fighting PAC", "url":"http://www.bornfighting.com"}]
+    "support_groups": [{"name":"Born Fighting PAC", "url":"http://www.bornfighting.com"}],
+    "news_urls":[
+      "http://www.cnn.com/2015/10/20/politics/jim-webb-2016-election-drops-out/",
+      "http://thehill.com/blogs/ballot-box/presidential-races/257454-jim-webb-drops-out-as-democrat-may-still-run-as"
+    ]
   },
   {
     "party":"Democrat",
@@ -41,7 +45,7 @@
     "last_name":"Chafee",
     "url":"http://www.chafee2016.com/",
     "campaign_name":"Chafee 2016 Committee",
-    "campaign_status":"active",
+    "campaign_status":"inactive",
     "slogans":["Fresh Ideas for America"],
     "social_urls":[
       "https://www.facebook.com/chafee2016",
@@ -49,7 +53,11 @@
       "https://instagram.com/lincchafee/",
       "https://vimeo.com/chafee2016"
     ],
-    "support_groups":[]
+    "support_groups":[],
+    "news_urls":[
+      "http://www.cnn.com/2015/10/23/politics/lincoln-chafee-2016-election-dnc-meeting/",
+      "http://www.politico.com/story/2015/10/lincoln-chafee-drops-out-of-democratic-race-215101"
+    ]
   },
   {
     "party":"Democrat",
@@ -105,7 +113,7 @@
     "last_name":"Jindal",
     "url":"http://www.bobbyjindal.com/",
     "campaign_name":"Jindal for President",
-    "campaign_status":"active",
+    "campaign_status":"inactive",
     "slogans":[],
     "social_urls":[
       "http://facebook.com/bobbyjindal",
@@ -113,7 +121,11 @@
       "http://instagram.com/bobbyjindal",
       "https://www.youtube.com/user/bobbyjindal"
     ],
-    "support_groups":[]
+    "support_groups":[],
+    "news_urls":[
+      "http://thehill.com/blogs/ballot-box/presidential-races/260508-jindal-drops-out-of-white-house-race",
+      "http://www.huffingtonpost.com/entry/bobby-jindal-drops-out_560a8993e4b0768126ff0e01"
+    ]
   },
   {
     "party":"Republican",
@@ -145,7 +157,7 @@
       "https://instagram.com/jebbush",
       "https://www.youtube.com/channel/UCxuef1vrlJMjZRrFmYyGSeQ"
     ],
-    "support_groups":[]
+    "support_groups":["Right to Rise USA"]
   },
   {
     "party":"Republican",
@@ -161,7 +173,11 @@
       "https://www.youtube.com/user/governorrickperry",
       "https://instagram.com/governorperry/"
     ],
-    "support_groups":[]
+    "support_groups":[],
+    "news_urls":[
+      "http://www.cnn.com/2015/09/11/politics/rick-perry-2016-campaign-suspended/",
+      "http://www.politico.com/story/2015/09/rick-perry-drops-out-presidential-race-213569"
+    ]
   },
   {
     "party":"Republican",
@@ -177,7 +193,11 @@
       "https://www.facebook.com/LindseyGrahamSC",
       "https://www.youtube.com/user/LindseyGrahamdotcom"
     ],
-    "support_groups":[]
+    "support_groups":[],
+    "news_urls":[
+      "http://www.wsj.com/articles/lindsey-graham-drops-out-of-gop-presidential-race-1450709196",
+      "http://www.newyorker.com/news/daily-comment/why-did-lindsey-graham-run"
+    ]
   },
   {
     "party":"Republican",
@@ -327,7 +347,11 @@
       "https://www.facebook.com/scottkwalker",
       "https://twitter.com/ScottWalker"
     ],
-    "support_groups":[]
+    "support_groups":[],
+    "news_urls":[
+      "http://www.cnn.com/2015/09/21/politics/scott-walker-drops-out-2016-election/",
+      "http://www.slate.com/articles/news_and_politics/politics/2015/09/scott_walker_drops_out_why_the_wisconsin_governor_left_the_gop_primary.html"
+    ]
   },
   {
     "party":"Republican",
