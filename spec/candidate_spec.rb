@@ -48,7 +48,7 @@ module TwentySixteen
     describe '.active' do
       it "returns an array of candidates having a campaign_status of 'active'" do
         expect(active_dems.map{|c| c[:last_name]}.sort).to eql(["Clinton","Sanders"])
-        #expect(active_gops.count).to eql(13)
+        expect(active_gops.map{|c| c[:last_name]}.sort).to eql(["Bush", "Carson", "Cruz", "Kasich", "Rubio", "Trump"])
       end
     end
 
