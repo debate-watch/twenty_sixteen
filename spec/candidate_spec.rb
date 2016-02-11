@@ -2,10 +2,10 @@ require 'pry'
 
 module TwentySixteen
   RSpec.describe Candidate do
-    let(:dem_actives){
+    let(:active_dems){
       TwentySixteen::Candidate.where({:party=>"Democrat",:campaign_status=>"active"})
     }
-    let(:gop_actives){
+    let(:active_gops){
       TwentySixteen::Candidate.where({:party=>"Republican",:campaign_status=>"active"})
     }
 
@@ -47,8 +47,8 @@ module TwentySixteen
 
     describe '.active' do
       it "returns an array of candidates having a campaign_status of 'active'" do
-        expect(dem_actives.count).to eql(3)
-        expect(gop_actives.count).to eql(13)
+        expect(active_dems.map{|c| c[:last_name]}.sort).to eql(["Clinton","Sanders"])
+        #expect(active_gops.count).to eql(13)
       end
     end
 
@@ -68,7 +68,7 @@ module TwentySixteen
 
     describe '.where' do
       it "returns a candidate whose attributes match the paramater" do
-        parties = dem_actives.map{|c| c[:party] }.uniq
+        parties = active_dems.map{|c| c[:party] }.uniq
         expect(parties).to eql(["Democrat"])
       end
     end
