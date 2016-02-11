@@ -64,7 +64,7 @@
     "first_name":"Martin",
     "last_name":"O'Malley",
     "url":"https://martinomalley.com/",
-    "campaign_status":"active",
+    "campaign_status":"inactive",
     "campaign_name":"O'Malley for President",
     "slogans":[],
     "social_urls":[
@@ -97,7 +97,7 @@
     "last_name":"Christie",
     "url":"https://www.chrischristie.com",
     "campaign_name":"Chris Christie for President",
-    "campaign_status":"active",
+    "campaign_status":"inactive",
     "slogans":["Telling it like it is."],
     "social_urls":[
       "https://www.facebook.com/govchristie",
@@ -185,7 +185,7 @@
     "last_name":"Graham",
     "url":"http://www.lindseygraham.com/",
     "campaign_name":"Lindsey Graham 2016",
-    "campaign_status":"active",
+    "campaign_status":"inactive",
     "slogans":["Ready to be Commander-in-Chief on Day One"],
     "social_urls":[
       "https://twitter.com/LindseyGrahamSC",
@@ -205,7 +205,7 @@
     "last_name":"Pataki",
     "url":"http://www.georgepataki.com/",
     "campaign_name":"Pataki for President",
-    "campaign_status":"active",
+    "campaign_status":"inactive",
     "slogans":["People over Politics"],
     "social_urls":[
       "https://www.facebook.com/GovGeorgePataki",
@@ -220,7 +220,7 @@
     "last_name":"Santorum",
     "url":"http://www.ricksantorum.com/",
     "campaign_name":"Santorum for President 2016",
-    "campaign_status":"active",
+    "campaign_status":"inactive",
     "slogans":["Restore the American Dream for Hard-working Families"],
     "social_urls":[
       "https://www.facebook.com/RickSantorum",
@@ -236,7 +236,7 @@
     "last_name":"Huckabee",
     "url":"http://www.mikehuckabee.com/",
     "campaign_name":"Huckabee for President",
-    "campaign_status":"active",
+    "campaign_status":"inactive",
     "slogans":["From Hope to Higher Ground"],
     "social_urls":[
       "https://www.facebook.com/mikehuckabee",
@@ -270,7 +270,7 @@
     "last_name":"Fiorina",
     "url":"https://carlyforamerica.com/",
     "campaign_name":"Carly for America",
-    "campaign_status":"active",
+    "campaign_status":"inactive",
     "slogans":["We must once again become a nation of limitless possibility."],
     "social_urls":[
       "https://www.facebook.com/pages/Carly-For-America/801745626578122",
@@ -305,7 +305,7 @@
     "last_name":"Paul",
     "url":"https://randpaul.com/",
     "campaign_name":"Rand Paul for President",
-    "campaign_status":"active",
+    "campaign_status":"inactive",
     "slogans":["Defeat the Washington Machine"],
     "social_urls":[
       "https://www.facebook.com/RandPaul",
