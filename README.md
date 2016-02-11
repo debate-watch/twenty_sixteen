@@ -40,14 +40,19 @@ Filter candidates.
 
 ```` rb
 dems = TwentySixteen::Candidate.democrat
+
 reps = TwentySixteen::Candidate.republican
+
 indies = TwentySixteen::Candidate.independent
+
+active_dems = TwentySixteen::Candidate.where({:party=>"Democrat",:campaign_status=>"active"}
 ````
 
 Find a specific candidate.
 
 ```` rb
 hrc = TwentySixteen::Candidate.find_by_url("https://www.hillaryclinton.com/")
+
 donald = TwentySixteen::Candidate.find_by_last_name("Trump")
 ````
 
