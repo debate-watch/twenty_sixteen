@@ -39,16 +39,22 @@ module TwentySixteen
     describe '.independent' do
       it "returns an array of matching candidates, indies only" do
         indies = TwentySixteen::Candidate.independent
-        expect(indies).to be_kind_of(Array)
-        expect(indies).not_to be_empty
-        expect(indies.first).to be_kind_of(Hash)
+        expect(indies).to be_empty
       end
     end
 
     describe '.active' do
       it "returns an array of candidates having a campaign_status of 'active'" do
-        expect(active_dems.map{|c| c[:last_name]}.sort).to eql(["Clinton","Sanders"])
-        expect(active_gops.map{|c| c[:last_name]}.sort).to eql(["Bush", "Carson", "Cruz", "Kasich", "Rubio", "Trump"])
+        expect(active_dems.map{|c| c[:last_name]}.sort).to eql([
+          "Clinton",
+          "Sanders"
+        ])
+        expect(active_gops.map{|c| c[:last_name]}.sort).to eql([
+          "Cruz",
+          "Kasich",
+          "Rubio",
+          "Trump"
+        ])
       end
     end
 

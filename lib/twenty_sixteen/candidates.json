@@ -1,11 +1,11 @@
 [
   {
-    "party":"Independent",
+    "party":"Democrat",
     "first_name":"Jim",
     "last_name":"Webb",
     "url":"http://www.webb2016.com/",
     "campaign_name":null,
-    "campaign_status":"active",
+    "campaign_status":"inactive",
     "slogans":["Leadership You Can Trust"],
     "social_urls":[
       "http://www.facebook.com/IHeardMyCountryCalling",
@@ -149,7 +149,7 @@
     "last_name":"Bush",
     "url":"https://jeb2016.com",
     "campaign_name":"Jeb 2016",
-    "campaign_status":"active",
+    "campaign_status":"inactive",
     "slogans":[],
     "social_urls":[
       "https://twitter.com/JebBush",
@@ -253,7 +253,7 @@
     "last_name":"Carson",
     "url":"https://www.bencarson.com/",
     "campaign_name":"Carson America",
-    "campaign_status":"active",
+    "campaign_status":"inactive",
     "slogans":["Heal, Inspire, Revive"],
     "social_urls":[
       "https://www.facebook.com/realbencarson/",
