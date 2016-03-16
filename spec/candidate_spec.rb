@@ -52,7 +52,6 @@ module TwentySixteen
         expect(active_gops.map{|c| c[:last_name]}.sort).to eql([
           "Cruz",
           "Kasich",
-          "Rubio",
           "Trump"
         ])
       end
