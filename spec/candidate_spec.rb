@@ -50,7 +50,6 @@ module TwentySixteen
           "Sanders"
         ])
         expect(active_gops.map{|c| c[:last_name]}.sort).to eql([
-          "Cruz",
           "Kasich",
           "Trump"
         ])
