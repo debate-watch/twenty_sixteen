@@ -40,7 +40,11 @@
       {"name":"Ready PAC (Ready for Hillary)", "url":"https://www.readyforhillary.com/"},
       {"name":"Priorities USA Action", "url":"http://www.prioritiesusaaction.org/"},
       {"name":"American Bridge 21st Century", "url":"https://americanbridgepac.org/"}
-    ]
+    ],
+    "running_mate":{
+      "first_name":"Tim",
+      "last_name":"Kane"
+    }
   },
   {
     "party":"Democrat",
@@ -149,7 +153,11 @@
     ],
     "support_groups":[
       {"name": "Rebuilding America Now", "url":"https://rebuildingamericanow.com/"}
-    ]
+    ],
+    "running_mate":{
+      "first_name":"Mike",
+      "last_name":"Pence"
+    }
   },
   {
     "party":"Republican",
@@ -337,7 +345,11 @@
       "https://twitter.com/tedcruz",
       "https://www.youtube.com/user/TedCruzforSenate"
     ],
-    "support_groups":[]
+    "support_groups":[],
+    "running_mate":{
+      "first_name":"Carly",
+      "last_name":"Fiorina"
+    }
   },
   {
     "party":"Republican",
