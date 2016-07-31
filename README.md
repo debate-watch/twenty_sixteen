@@ -46,6 +46,8 @@ reps = TwentySixteen::Candidate.republican
 indies = TwentySixteen::Candidate.independent
 
 active_dems = TwentySixteen::Candidate.where({:party=>"Democrat",:campaign_status=>"active"}
+
+party_nomination_winners = TwentySixteen::Candidate.party_nominee
 ````
 
 Find a specific candidate.
