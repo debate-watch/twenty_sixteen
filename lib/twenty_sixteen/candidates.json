@@ -26,7 +26,10 @@
     "url":"https://www.hillaryclinton.com/",
     "campaign_name":"Hillary for America",
     "campaign_status":"active",
-    "slogans":[],
+    "slogans":[
+      "I'm With Her",
+      "Stronger Together"
+    ],
     "social_urls":[
       "https://www.facebook.com/hillaryclinton",
       "https://twitter.com/hillaryclinton",
@@ -82,7 +85,10 @@
     "url":"https://berniesanders.com/",
     "campaign_name":"Bernie 2016",
     "campaign_status":"inactive",
-    "slogans":[],
+    "slogans":[
+      "A Future To Believe In",
+      "Feel the Bern"
+    ],
     "social_urls":[
       "https://www.facebook.com/berniesanders",
       "https://twitter.com/BernieSanders",
