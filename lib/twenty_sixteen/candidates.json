@@ -44,7 +44,8 @@
     "running_mate":{
       "first_name":"Tim",
       "last_name":"Kane"
-    }
+    },
+    "party_nominee":true
   },
   {
     "party":"Democrat",
@@ -157,7 +158,8 @@
     "running_mate":{
       "first_name":"Mike",
       "last_name":"Pence"
-    }
+    },
+    "party_nominee":true
   },
   {
     "party":"Republican",
@@ -388,5 +390,49 @@
       "https://twitter.com/johnkasich"
     ],
     "support_groups":[]
+  },
+  {
+    "party":"Libertarian",
+    "first_name":"Gary",
+    "last_name":"Johnson",
+    "url":"https://www.johnsonweld.com/",
+    "campaign_name":"Gary Johnson 2016",
+    "campaign_status":"active",
+    "slogans":[
+      "Credible. Proven. Capable. Honest."
+    ],
+    "social_urls":[
+      "https://www.facebook.com/govgaryjohnson/",
+      "https://twitter.com/GovGaryJohnson",
+      "https://www.youtube.com/c/govgaryjohnson",
+      "https://www.instagram.com/govgaryjohnson/",
+      "https://plus.google.com/+GovGaryJohnson/",
+      "https://www.linkedin.com/company/johnson-weld-2016",
+      "https://www.pinterest.com/govgaryjohnson"
+    ],
+    "support_groups":[
+    ],
+    "running_mate":{
+      "first_name":"Bill",
+      "last_name":"Weld"
+    },
+    "party_nominee":true
+  },
+  {
+    "party":"Green",
+    "first_name":"Jill",
+    "last_name":"Stein",
+    "url":"http://www.jill2016.com/",
+    "campaign_name":"Jill Stein for President",
+    "campaign_status":"active",
+    "slogans":[
+      "Keep the Revolution Going"
+    ],
+    "social_urls":[
+      "https://www.facebook.com/drjillstein/",
+      "https://twitter.com/DrJillStein"
+    ],
+    "support_groups":[],
+    "party_nominee":true
   }
 ]

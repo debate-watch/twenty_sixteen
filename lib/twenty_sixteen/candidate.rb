@@ -39,5 +39,9 @@ module TwentySixteen
     def self.where(options)
       all.select{|candidate| candidate.merge(options) == candidate}
     end
+
+    def self.party_nominee
+      all.select{|candidate| candidate[:party_nominee] == true}
+    end
   end
 end

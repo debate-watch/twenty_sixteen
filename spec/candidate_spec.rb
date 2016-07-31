@@ -74,5 +74,13 @@ module TwentySixteen
         expect(parties).to eql(["Democrat"])
       end
     end
+
+    describe '.party_nominee' do
+      it "returns candidates who have won their party's nominating process" do
+        nominees = TwentySixteen::Candidate.party_nominee
+        parties = nominees.map{|c| c[:party] }.uniq.sort
+        expect(parties).to eql(["Democrat", "Green", "Libertarian","Republican"])
+      end
+    end
   end
 end
