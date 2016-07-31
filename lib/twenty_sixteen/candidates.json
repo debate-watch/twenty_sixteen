@@ -141,7 +141,9 @@
       "https://instagram.com/realdonaldtrump/",
       "https://www.youtube.com/user/trump"
     ],
-    "support_groups":[]
+    "support_groups":[
+      {"name": "Rebuilding America Now", "url":"https://rebuildingamericanow.com/"}
+    ]
   },
   {
     "party":"Republican",
